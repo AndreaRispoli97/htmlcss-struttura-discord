@@ -29,8 +29,11 @@ main > section {
   background-color: #23272a;
 } 
 
+.bg-pink {
+  background-color: #ee82ee;
+}
 
 .debug .row {
 height: 400px;
-background-color: pink;
+background-color: #ffc0cb;
 }
