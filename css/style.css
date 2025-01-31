@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 900px;
+  margin: 0 auto;
+}
+
+main > section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.bg-azure {
+  background-color: #1e90ff;
+} 
+.bg-white {
+  background-color: #fff;
+} 
+.bg-blue {
+  background-color: #00008b;
+} 
+.bg-gray {
+  background-color: #d3d3d3;
+} 
+.bg-black {
+  background-color: #23272a;
+} 
+
+
+.debug .row {
+height: 400px;
+background-color: pink;
+}
