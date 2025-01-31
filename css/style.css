@@ -40,6 +40,23 @@ main > section {
   width: 400px;
 }
 
+.big-pink {
+  background-color: #ee82ee;
+  display: flex;
+  border-style:dashed;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+  margin-left:10%;
+
+}
+
+.header {
+  background-color: #add8e6;
+  color: #000000;
+  padding: 40px 0;
+}
+
 .row {
   display: flex;
 }
@@ -48,6 +65,25 @@ main > section {
   display: flex;
   flex-grow: 2;
 }
+
+.barra {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.tab {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #000;
+  border-style: dashed;
+  background-color: #daa520;
+  flex-grow: 1;
+}
+
+
 
 
 
