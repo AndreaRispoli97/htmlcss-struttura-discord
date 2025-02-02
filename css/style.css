@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* INTESTAZIONE */
 .container{
   width: 900px;
   margin: 0 auto;
@@ -13,6 +13,32 @@ main > section {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+.header {
+  background-color: #add8e6;
+  color: #000000;
+  padding: 10px;
+}
+
+.tab {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #000;
+  border-style: dashed;
+  background-color: #daa520;
+  flex-grow: 1;
+}
+
+.center {
+  justify-content: center;
+}
+
+.left {
+  justify-content:flex-end;
+}
+
+/* INZIO COLORI MAIN */
+
 .bg-azure {
   background-color: #1e90ff;
   border-style:dashed;
@@ -51,11 +77,6 @@ main > section {
 
 }
 
-.header {
-  background-color: #add8e6;
-  color: #000000;
-  padding: 40px 0;
-}
 
 .row {
   display: flex;
@@ -68,23 +89,57 @@ main > section {
 
 .barra {
   display: flex;
-  list-style-type: none;
-  justify-content: center;
   padding-left: 20%;
   padding-right: 20%;
 }
 
-.tab {
+
+/* Parte Footer */
+
+.footer-big {
+  background-color: #f08080;
   display: flex;
-  padding: 10px;
-  border: 1px solid #000;
-  border-style: dashed;
-  background-color: #daa520;
-  flex-grow: 1;
+  align-items: center;
+  width: 80%;
+  border-style:dashed;
+}
+
+.footer-small {
+  background-color: #20b2aa;
+  display: flex;
+  border-style:dashed;
+  width: 40%;
+  border-color: #fff;
+}
+
+.padding-top {
+  display: flex;
+  padding: 10px 0px 30px 0px;
 }
 
 
+.secondaria{
+  display: flex;
+  justify-content: space-between;
+  background-color: #7fffd4;
+  width:100%;
+  align-items: center;
+  height:50px;
+}
 
+.back-tab{
+  background-color:#ffb6c1;
+  border-style:dashed;
+  font-size: 15px;
+  padding :3px;
+}
+
+button{
+  background-color: #ffb6c1;
+  border:none;
+  text-align: center;
+}
+ 
 
 
 .debug .row {
